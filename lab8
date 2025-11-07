@@ -75,4 +75,9 @@ END {
 printf("No of packets dropped:%d\n",count);
 }
 
+node 2recieved ping answer from 5 with round-trip-time 42.0ms
+node 3recieved ping answer from 6 with round-trip-time 61.6ms
+node 5recieved ping answer from 2 with round-trip-time 42.0ms
+node 6recieved ping answer from 3 with round-trip-time 61.6ms
+No of packets dropped:2
 
